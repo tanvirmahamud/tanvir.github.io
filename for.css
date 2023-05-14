@@ -1,0 +1,40 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgb(227, 225, 225);
+  
+}
+.pra{
+  margin-bottom: 50px;
+  color: gray;
+}
+.button{
+  background-color: rgb(67, 124, 202);
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px  ;
+}
+.button:hover{
+  background-color: rgb(24, 87, 176) ;
+  transition: 0.15s;
+  box-shadow: 6px 6px 6px;
+}
+.button:active{
+  background-color: rgb(5, 5, 82);
+}
+.next{
+  color: white;
+}
+.cho{
+  font-size: 200px;
+}
